@@ -14,10 +14,10 @@
   "repository": {
     "directory": "packages/local",
     "type": "git",
-    "url": "git+https://github.com/microlink/local.git"
+    "url": "git+https://github.com/microlinkhq/local.git"
   },
   "bugs": {
-    "url": "https://github.com/microlink/local/issues"
+    "url": "https://github.com/microlinkhq/local/issues"
   },
   "keywords": [
     "browserless",
