@@ -2,8 +2,8 @@
 
 const VM_OPTS = {
   require: {
+    builtin: ['path', 'url'],
     external: {
-      builtin: ['path', 'url'],
       modules: [
         '@aws-sdk/client-s3',
         '@metascraper',
