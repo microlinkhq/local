@@ -2,6 +2,8 @@
 
 'use strict'
 
+require('update-notifier')({ pkg: require('../package.json') }).notify()
+
 const browserlessFunction = require('@browserless/function')
 const { cli, print, exit } = require('@microlink/cli')
 const { readFile } = require('fs').promises
