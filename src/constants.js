@@ -7,10 +7,12 @@ const VM_OPTS = {
       modules: [
         '@aws-sdk/client-s3',
         '@metascraper',
+        '@mozilla/readability',
         'async',
-        'browserless',
+        'cheerio',
         'got',
         'ioredis',
+        'jsdom',
         'lodash',
         'metascraper-',
         'metascraper',
