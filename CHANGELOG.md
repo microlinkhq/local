@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/microlinkhq/local/compare/v1.0.3...v1.0.4) (2021-06-22)
+
+
+### Bug Fixes
+
+* add missing dependency ([f32a0e6](https://github.com/microlinkhq/local/commit/f32a0e6a4de94055e19d87ce7fb5d33a3424cb16))
+
 ### [1.0.3](https://github.com/microlinkhq/local/compare/v1.0.2...v1.0.3) (2021-05-21)
 
 ### [1.0.2](https://github.com/microlinkhq/local/compare/v1.0.1...v1.0.2) (2021-04-26)
