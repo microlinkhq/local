@@ -9,6 +9,7 @@ const VM_OPTS = {
         '@metascraper',
         '@mozilla/readability',
         'async',
+        'browserless',
         'cheerio',
         'got',
         'ioredis',
