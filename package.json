@@ -41,6 +41,7 @@
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@mozilla/readability": "~0.4.1",
     "conventional-github-releaser": "latest",
     "finepack": "latest",
     "git-authors-cli": "latest",
