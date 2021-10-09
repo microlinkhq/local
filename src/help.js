@@ -1,6 +1,6 @@
 'use strict'
 
-const { gray, white } = require('chalk')
+const { gray, white } = require('picocolors')
 
 module.exports = `
 ${gray(`${white('microlink-local')} <file> <url> [options]`)}

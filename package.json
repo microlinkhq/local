@@ -33,7 +33,7 @@
     "@browserless/function": "~8.8.9",
     "@microlink/cli": "~2.0.0-2.0",
     "browserless": "~8.8.8",
-    "chalk": "~4.1.1",
+    "picocolors": "~0.2.1",
     "pretty-ms": "~7.0.1",
     "puppeteer": "~8.0.0",
     "update-notifier": "~5.1.0"
