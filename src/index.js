@@ -8,8 +8,8 @@ const browserlessFunction = require('@browserless/function')
 const { cli, print, exit } = require('@microlink/cli')
 const { readFile } = require('fs').promises
 const prettyMs = require('pretty-ms')
+const colors = require('picocolors')
 const { statSync } = require('fs')
-const chalk = require('chalk')
 
 const { VM_OPTS } = require('./constants')
 
@@ -26,7 +26,7 @@ const run = async cli => {
 
   const { isFulfilled, value, reason } = await myFn(url, cli.flags)
   const duration = spinner.stop()
-  const info = chalk.gray(
+  const info = colors.gray(
     `${print.bytes(getFileSize(filepath))} in ${prettyMs(duration)}`
   )
 
