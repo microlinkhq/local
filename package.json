@@ -2,7 +2,7 @@
   "name": "@microlink/local",
   "description": "Runs Microlink Functions locally.",
   "homepage": "https://github.com/microlinkhq/local",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "bin": {
     "microlink-local": "src/index.js"
   },
