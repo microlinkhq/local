@@ -30,12 +30,13 @@
     "serverless"
   ],
   "dependencies": {
-    "@browserless/function": "~9.4.1",
+    "@browserless/function": "~9.5.2",
     "@microlink/cli": "~2.1.0",
     "browserless": "~9.5.1",
     "picocolors": "~1.0.0",
     "pretty-ms": "~7.0.1",
     "puppeteer": "~15.3.2",
+    "time-span": "4",
     "update-notifier": "5"
   },
   "devDependencies": {

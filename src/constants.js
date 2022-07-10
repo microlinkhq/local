@@ -1,6 +1,7 @@
 'use strict'
 
 const VM_OPTS = {
+  console: 'inherit',
   require: {
     builtin: ['path', 'url'],
     external: {
